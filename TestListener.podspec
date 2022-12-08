@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => 'https://github.com/venigreat/TestListener.git', :branch => 'main' }
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Classes", "TestListener/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
   spec.framework  = "XCTest"
 end
